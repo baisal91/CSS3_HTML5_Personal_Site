@@ -1,0 +1,188 @@
+body {
+    color: #40514E;
+    margin: 0;
+    /* Moves everything to center*/
+    text-align: center;
+    font-family: 'Chilanka', cursive, sans-serif;
+}
+
+h1 {
+    color: #66BFBF;
+    line-height: 3;
+    font-size: 400%;
+    margin-top: 0;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'Chilanka', cursive, sans-serif;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+
+h3 {
+    color: #11999E;
+    font-family: 'Chilanka', cursive, sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #EAF6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    padding: 100px;
+    position: relative;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 25%;
+    top: 8%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 20%;
+    bottom: 60%;
+
+}
+.programmer {
+    font-size: 200%;
+    font-weight: normal;
+    font-synthesis: 5px;
+}
+
+.middle-container {
+
+    margin: 100px 0;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+
+   
+.fibonacci {
+    padding-top: 30px;
+    border-radius: 70%;
+    width: 15%;
+    height: auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+
+
+
+.code-img {
+    border-radius: 100%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+
+/*
+.code-text {
+    clear: left; // If I wanted my text to be under images
+}
+*/
+
+
+.chillies-img {
+    border-radius: 100%;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Chilanka', cursive, sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+.copy-right{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #1199E9);
+    background-image: -moz-linear-gradient(top, #11CDD4, #1199E9);
+    background-image: -ms-linear-gradient(top, #11CDD4, #1199E9);
+    background-image: -o-linear-gradient(top, #11CDD4, #1199E9);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #1199E9);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Chilanka', cursive, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+ }
